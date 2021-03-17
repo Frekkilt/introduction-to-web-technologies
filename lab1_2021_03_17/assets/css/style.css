@@ -1,0 +1,69 @@
+/*
+		 /\_/\
+	____/ o o \     Melm
+  /~____  =-= /
+ (______)__m_m)
+*/
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-bar{
+    height: 5px;
+    background-color: #242e30;
+    width: 100%;
+
+}
+
+.nav-bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.logo{
+    width: 50%;
+}
+
+.nav{
+    width: 50%;
+    text-align: right;
+    margin: auto;
+}
+
+.nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6CB3D1;
+}
+
+.page-title{
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.page-title h1{
+    text-align: center;
+    font-weight: 200;
+    color: #6CB3D1;
+}
+
+.footer{
+    width: 100%;
+}
